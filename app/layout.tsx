@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import { Playfair_Display, Roboto } from "next/font/google";
 import "./globals.css";
-import Header from "./components/Header";
 import Footer from "./components/Footer";
+import TopHeader from "./components/ٌTopHeader";
+import MainHeader from "./components/MainHeader";
 
 const Playfair = Playfair_Display({
   subsets: ["latin"],
@@ -27,7 +28,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${Playfair.variable} ${roboto.variable} antialiased`}>
-        <Header />
+        <header>
+          <TopHeader />
+          <MainHeader />
+        </header>
         {children}
         <Footer />
       </body>
