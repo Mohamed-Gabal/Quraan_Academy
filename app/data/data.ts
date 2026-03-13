@@ -5,5 +5,4 @@ export const navItems = [
   { id: 3, label: "Teachers", href: "/teachers" },
   { id: 4, label: "Pricing", href: "/pricing" },
   { id: 5, label: "About Us", href: "/about-us" },
-  { id: 6, label: "Contact", href: "/contact" },
 ];

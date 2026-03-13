@@ -27,7 +27,7 @@ const Pricing = () => {
               <button 
                 key={tab} 
                 onClick={() => setActiveTab(tab)}
-                className={`pb-4 text-sm font-semibold transition-all duration-300 relative ${
+                className={`pb-4 text-sm font-semibold transition-all duration-300 relative cursor-pointer ${
                   activeTab === tab 
                   ? 'text-primary' 
                   : 'text-gray-400 hover:text-primary'

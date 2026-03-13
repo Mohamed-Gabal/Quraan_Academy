@@ -17,7 +17,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 /* Text Selection */
 ::selection {
   background-color: var(--color-accent);
